@@ -1,0 +1,42 @@
+/* Quotation.css */
+
+.quotation-container {
+    padding: 20px;
+}
+
+.quotation-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.quotation-table th,
+.quotation-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.quotation-table th {
+    background-color: #f4f4f4;
+}
+
+.quotation-table button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.quotation-table button:nth-of-type(1) {
+    background-color: #007bff;
+}
+
+.quotation-table button:nth-of-type(2) {
+    background-color: #28a745;
+}
+
+.quotation-table button:hover {
+    opacity: 0.8;
+}

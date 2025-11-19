@@ -1,0 +1,34 @@
+/* src/components/Dashboard/SendQuoteForm.css */
+.send-quote-form {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f0f4f8;
+}
+
+.send-quote-form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.send-quote-form input, .send-quote-form select, .send-quote-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.send-quote-form button {
+    padding: 10px 20px;
+    background-color: #28a745; /* Green color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.send-quote-form button:hover {
+    background-color: #218838; /* Darker green for hover */
+}

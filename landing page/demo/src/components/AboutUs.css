@@ -1,0 +1,48 @@
+.about-us-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .about-us-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    flex-direction: row-reverse; /* Reverses the order of the items to place the image on the right */
+  }
+  
+  .about-us-image {
+    flex: 1 1 30%; /* Takes up 40% of the container width by default */
+    max-width: 55%;
+    height: auto;
+    border: 2px solid #333;
+    border-radius: 8px;
+  }
+  
+  .about-us-text {
+    flex: 1 1 60%; /* Takes up 60% of the container width by default */
+    border: 2px solid #333;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #f9f9f9; /* Optional: Light background color for contrast */
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  p {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .vision, .mission, .commitment {
+    margin-bottom: 20px;
+  }
+  

@@ -1,0 +1,73 @@
+/* General styling for the app */
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 200px;
+  height: calc(100vh - 56px); /* Adjust height based on Navbar size */
+}
+
+.main-content {
+  flex: 1;
+  padding: 30px;
+  flex-grow: 1;
+  
+}
+
+
+
+.home {
+  padding: 20px;
+}
+
+.landing-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+/* VendorApp.css */
+.custom-navbar {
+  padding: 1re; /* Increase navbar height */
+}
+
+.custom-brand {
+  font-size: 1.5rem; /* Increase font size */
+}
+
+.custom-sidebar {
+  background-color: #191970; /* Midnight Blue */
+}
+
+.custom-brand {
+  color: white !important;
+}
+
+.custom-nav-link {
+  color: white !important;
+}
+
+.custom-nav-link:hover {
+  color: #cccccc !important; /* Lighten on hover */
+}
+
+/* VendorApp.css */
+.custom-navbar {
+  height: 80px; /* Set your desired height */
+  background-color: #191970; /* MidNight Blue color */
+}
+
+.custom-brand {
+  font-size: 1.5rem; /* Adjust the font size if needed */
+  line-height: 70px; /* Align text vertically within the navbar */
+}
+
+.custom-navbar .nav-link {
+  line-height: 70px; /* Align nav links vertically within the navbar */
+}

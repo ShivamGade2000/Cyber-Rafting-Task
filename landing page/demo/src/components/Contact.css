@@ -1,0 +1,43 @@
+/* ContactUs.css */
+.container {
+    max-width: 1200px; /* Adjust container width for a more refined look */
+  }
+  
+  .card {
+    border-radius: 12px; /* Rounded corners for a softer look */
+  }
+  
+  .card-body {
+    padding: 30px; /* Increase padding inside the card for a more spacious feel */
+  }
+  
+  .card-title {
+    font-size: 1.5rem; /* Larger font size for the card title */
+    margin-bottom: 15px;
+  }
+  
+  .card-text {
+    font-size: 1.1rem; /* Slightly larger font size for the text */
+    color: #333;
+  }
+  
+  .text-primary {
+    color: #007bff !important; /* Use Bootstrap primary color for titles */
+  }
+  
+  .text-dark {
+    color: #343a40 !important; /* Dark text color for links */
+  }
+  
+  .display-4 {
+    font-size: 3.5rem; /* Larger header size for emphasis */
+  }
+  
+  .shadow-lg {
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1); /* Enhanced shadow for more depth */
+  }
+  
+  .border-light {
+    border-color: #f8f9fa !important; /* Light border color for a clean look */
+  }
+  

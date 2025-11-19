@@ -1,0 +1,31 @@
+/* src/components/Dashboard/Requests.css */
+.requests-container {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f0f4f8;
+}
+
+.requests-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.requests-table th, .requests-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.requests-table th {
+    background-color: #007bff; /* Blue color */
+    color: #fff;
+}
+
+.requests-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.requests-container h2 {
+    color: #007bff; /* Blue color */
+}

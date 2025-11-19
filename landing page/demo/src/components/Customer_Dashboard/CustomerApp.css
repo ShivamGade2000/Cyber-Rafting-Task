@@ -1,0 +1,73 @@
+/* General styling for the app */
+.app {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .sidebar {
+    width: 200px;
+    height: calc(100vh - 56px);
+     /* Adjust height based on Navbar size */
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 30px;
+    flex-grow: 1;
+    
+  }
+  
+  
+  .home {
+    padding: 20px;
+  }
+  
+  .landing-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+ .make-navbar-sticky{
+  position: sticky; 
+  top: 0;  
+  z-index: 1000;
+ }
+
+  /* VendorApp.css */
+  .custom-navbar {
+    padding: 0.10rem; /* Increase navbar height */
+  }
+  
+  .custom-brand {
+    font-size: 1.5rem; /* Increase font size */
+  }
+
+  /* CustomerApp.css */
+
+.custom-navbar {
+    background-color: #003366; /* Midnight Blue */
+}
+
+.sidebar {
+    background-color: #003366; /* Midnight Blue */
+}
+
+.text-white {
+    color: #fff;
+}
+
+.bg-midnight-blue {
+    background-color: #003366; /* Midnight Blue */
+}
+.custom-brand {
+    color: #fff; /* White color */
+}
+/* CustomerApp.css */
+
+
+  

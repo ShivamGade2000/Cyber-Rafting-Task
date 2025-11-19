@@ -1,0 +1,38 @@
+.container {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.nav {
+    margin-bottom: 0;
+}
+
+.nav-link {
+    margin-left: 0;
+}
+
+.nav-borders {
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 10px;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.img-account-profile {
+    width: 150px;
+    height: 150px;
+}
+
+.form-control {
+    margin-bottom: 10px;
+}
+
+.btn-primary {
+    margin-top: 10px;
+}

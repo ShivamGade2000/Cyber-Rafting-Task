@@ -1,0 +1,17 @@
+/* src/components/Customer_DashBoard/DownloadQuote.css */
+
+.download-quote-container {
+    padding: 2rem;
+}
+
+h2 {
+    margin-bottom: 1rem;
+}
+
+form {
+    margin-top: 1rem;
+}
+
+button[type="submit"] {
+    margin-top: 1rem;
+}

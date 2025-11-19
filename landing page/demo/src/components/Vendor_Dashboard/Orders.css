@@ -1,0 +1,31 @@
+/* src/components/Dashboard/Orders.css */
+.orders-container {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f0f4f8;
+}
+
+.orders-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.orders-table th, .orders-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.orders-table th {
+    background-color: #007bff; /* Blue color */
+    color: #fff;
+}
+
+.orders-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.orders-container h2 {
+    color: #007bff; /* Blue color */
+}
